@@ -1,0 +1,18 @@
+body{
+
+    background: rgb(29, 109, 112) ;
+}
+
+.form-wrap{ width: 300px; border-radius: 30px; background: #3d3e3d; padding: 40px 20px; box-sizing: border-box; position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+h1{text-align: center; color: #fff; font-weight: normal; margin-bottom: 10px; margin-top: 10px;}
+
+input[name="email"]{width: 100%; background: none; border: 1px solid #fff; border-radius: 3px; padding: 6px 15px; box-sizing: border-box; margin-bottom: 10px; font-size: 16px; color: #fff;}
+input[name="Password"]{width: 100%; background: none; border: 1px solid #fff; border-radius: 3px; padding: 6px 15px; box-sizing: border-box; margin-bottom: 10px; font-size: 16px; color: #fff;}
+input[name="ID"]{width: 100%; background: none; border: 1px solid #fff; border-radius: 3px; padding: 6px 15px; box-sizing: border-box; margin-bottom: 10px; font-size: 16px; color: #fff;}
+input[name="Address"]{width: 100%; background: none; border: 1px solid #fff; border-radius: 3px; padding: 6px 15px; box-sizing: border-box; margin-bottom: 10px; font-size: 16px; color: #fff;}
+input[name="Uname"]{width: 100%; background: none; border: 1px solid #fff; border-radius: 3px; padding: 6px 15px; box-sizing: border-box; margin-bottom: 10px; font-size: 16px; color: #fff;}
+        
+input[name="submit"]{width: 45%;  margin-top: 10px; margin-right: 19px;  padding: 6px 15px; border-radius: 30px; background: #bac675; border: 0; cursor: pointer; color: #3e3d3d;}
+    
+input[type="reset"]{width: 45%;  margin-top: 10px; padding: 6px 15px;  border-radius: 30px; background: #bac675; border: 0; cursor: pointer; color: #3e3d3d;}
+      
