@@ -1,18 +1,129 @@
-body{
 
-    background: rgb(29, 109, 112) ;
+.topnav {
+  top: 0px;
+  position: fixed;
+  left: 0;
+  background-color: rgb(46, 104, 230);
+  overflow: hidden;
+  border-radius: 15px;
+  width: 100%;
+  height: 60px;
+  
 }
 
-.form-wrap{ width: 300px; border-radius: 30px; background: #3d3e3d; padding: 40px 20px; box-sizing: border-box; position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%);}
-h1{text-align: center; color: #fff; font-weight: normal; margin-bottom: 10px; margin-top: 10px;}
 
-input[name="email"]{width: 100%; background: none; border: 1px solid #fff; border-radius: 3px; padding: 6px 15px; box-sizing: border-box; margin-bottom: 10px; font-size: 16px; color: #fff;}
-input[name="Password"]{width: 100%; background: none; border: 1px solid #fff; border-radius: 3px; padding: 6px 15px; box-sizing: border-box; margin-bottom: 10px; font-size: 16px; color: #fff;}
-input[name="ID"]{width: 100%; background: none; border: 1px solid #fff; border-radius: 3px; padding: 6px 15px; box-sizing: border-box; margin-bottom: 10px; font-size: 16px; color: #fff;}
-input[name="Address"]{width: 100%; background: none; border: 1px solid #fff; border-radius: 3px; padding: 6px 15px; box-sizing: border-box; margin-bottom: 10px; font-size: 16px; color: #fff;}
-input[name="Uname"]{width: 100%; background: none; border: 1px solid #fff; border-radius: 3px; padding: 6px 15px; box-sizing: border-box; margin-bottom: 10px; font-size: 16px; color: #fff;}
-        
-input[name="submit"]{width: 45%;  margin-top: 10px; margin-right: 19px;  padding: 6px 15px; border-radius: 30px; background: #bac675; border: 0; cursor: pointer; color: #3e3d3d;}
-    
-input[type="reset"]{width: 45%;  margin-top: 10px; padding: 6px 15px;  border-radius: 30px; background: #bac675; border: 0; cursor: pointer; color: #3e3d3d;}
-      
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 20px 20px;
+text-decoration: none;
+font-size: 17px;
+}
+
+
+.topnav a:hover {
+background-color: #ddd;
+color: rgb(0, 0, 0);
+}
+
+.topnav img{
+  float: left;
+  display: block;
+  width: 50px;
+  height: 60px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+
+.topnav-right {
+float: right;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(46, 104, 230);
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+}
+.footer a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+  
+  
+  .footer a:hover {
+  background-color: #ddd;
+  color: rgb(0, 0, 0);
+  }
+
+
+
+.post1
+{
+   margin: auto;
+   padding: 10px;
+   border-radius: 15px;
+    background-color: #FFF;
+    overflow: hidden;
+    box-shadow: 0 0 1px #CCC;
+    width: 90%;
+    height: 300px;
+}
+.post1 .content
+{
+    padding: 15px;
+}
+.post1 .author
+{
+    font-size: 11px;
+    color: #737373;
+    padding: 10px 10px 10px 10px;
+    text-align: right;
+    background: #E8E8E8;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid;
+}
+.post1 .post-img-content
+{
+  margin: auto;
+    height: 185px;
+    position: relative;
+}
+.post1 .post-img-content img
+{
+  border-radius: 15px;
+    position: absolute;
+}
+.post1 .post-title
+{
+    display: table-cell;
+    vertical-align: bottom;
+    z-index: 2;
+    position: relative;
+}
+.post1 .post-title b
+{
+    background-color: rgba(51, 51, 51, 0.58);
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #FFF;
+    padding: 10px 15px;
+    margin-top: 5px;
+}
+
+
+
